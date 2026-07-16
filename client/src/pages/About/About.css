@@ -1,0 +1,115 @@
+.about-page{
+    padding:100px 8%;
+    background:#f8fafc;
+}
+
+.about-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.about-tag{
+    color:#0B63CE;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.about-page h1{
+    margin:15px 0 40px;
+    font-size:52px;
+    color:#1f2937;
+}
+
+.about-page p{
+    margin-bottom:25px;
+    line-height:1.9;
+    color:#555;
+    font-size:18px;
+}
+
+.about-video{
+    margin-top:70px;
+}
+
+.video-placeholder{
+    margin-top:25px;
+    height:500px;
+    border-radius:20px;
+    background:#e8edf5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:26px;
+    color:#777;
+}
+.about-video{
+
+    margin-top:70px;
+
+    text-align:center;
+}
+
+.about-video h2{
+
+    font-size:34px;
+
+    color:#1f2937;
+
+    margin-bottom:35px;
+
+    font-weight:700;
+}
+
+.video-wrapper{
+
+    width:100%;
+
+    max-width:980px;
+
+    margin:auto;
+
+    overflow:hidden;
+
+    border-radius:18px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.18);
+
+    background:#000;
+}
+
+.video-wrapper iframe{
+
+    width:100%;
+
+    height:560px;
+
+    border:none;
+
+    display:block;
+}
+
+@media(max-width:992px){
+
+.video-wrapper iframe{
+
+    height:420px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.video-wrapper iframe{
+
+    height:300px;
+
+}
+
+.about-video h2{
+
+    font-size:28px;
+
+}
+
+}

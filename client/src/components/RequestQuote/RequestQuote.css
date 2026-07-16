@@ -1,0 +1,37 @@
+.rq-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:2000;
+}
+.rq-modal{
+  background:#fff;
+  padding:20px 22px;
+  width:720px;
+  max-width:94%;
+  border-radius:10px;
+  box-shadow:0 20px 50px rgba(0,0,0,0.3);
+  position:relative;
+}
+.rq-close{
+  position:absolute;right:12px;top:8px;border:none;background:none;font-size:26px;cursor:pointer
+}
+.rq-modal h2{margin:0 0 6px}
+.rq-modal p{color:#555;margin-bottom:14px}
+.rq-form label{display:block;margin-bottom:10px;font-size:14px}
+.rq-form input,.rq-form textarea,.rq-form select{width:100%;padding:8px 10px;border:1px solid #d1d5db;border-radius:6px;margin-top:6px}
+.rq-error{color:#b91c1c;margin-top:6px;font-size:13px}
+.rq-success{color:#065f46;margin-top:8px;font-size:14px;background:#ecfdf5;padding:8px;border-radius:6px}
+.rq-row{display:flex;gap:12px}
+.rq-row label{flex:1}
+.rq-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:14px}
+.rq-cancel{background:#eee;border:none;padding:8px 14px;border-radius:6px;cursor:pointer}
+.rq-submit{background:#0B63CE;color:#fff;border:none;padding:9px 16px;border-radius:8px;cursor:pointer}
+
+@media(max-width:600px){
+  .rq-row{flex-direction:column}
+  .rq-modal{width:96%}
+}
