@@ -165,7 +165,7 @@ export default function Footer() {
 
         <p>
 
-          © {new Date().getFullYear()} Nava Engineering S.R.L.
+          © {new Date().getFullYear()} Samara Asiduo Solutions.
           Tutti i diritti riservati.
 
         </p>
