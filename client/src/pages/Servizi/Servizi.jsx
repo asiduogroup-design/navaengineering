@@ -134,6 +134,8 @@ export default function Servizi() {
 
       </div>
 
+      </div>
+
     </section>
   );
 }
