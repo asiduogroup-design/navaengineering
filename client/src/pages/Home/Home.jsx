@@ -51,7 +51,6 @@ export default function Home() {
 
     {/* ================= SETTORI ================= */}
 
-<div className="container">
 <section className="section-block">
 
     <div className="section-image">
@@ -70,9 +69,9 @@ export default function Home() {
         <h2>Settori di Intervento</h2>
 
         <p>
-            Nava Engineering provides complete engineering consultancy
-            from feasibility studies through executive design,
-            construction supervision and final testing.
+            Nava Engineering fornisce una consulenza ingegneristica completa,
+            dagli studi di fattibilità alla progettazione esecutiva,
+            alla direzione lavori e al collaudo finale.
         </p>
 
         <ul>
@@ -100,13 +99,13 @@ export default function Home() {
 
     <div className="section-content">
 
-        <span>OUR CLIENTS</span>
+        <span>I NOSTRI CLIENTI</span>
 
         <h2>Clientela di riferimento</h2>
 
         <p>
-            Our engineering services are trusted by public and private
-            organizations across numerous industries.
+            I nostri servizi di ingegneria sono apprezzati da enti pubblici e privati
+            in numerosi settori.
         </p>
 
         <div className="client-grid">
@@ -145,10 +144,10 @@ export default function Home() {
 
 <section className="why-us">
 
-    <h2>Why Choose Nava Engineering</h2>
+    <h2>Perché scegliere Nava Engineering</h2>
 
     <p>
-        Engineering excellence built on experience, innovation and trust.
+        Eccellenza ingegneristica basata su esperienza, innovazione e fiducia.
     </p>
 
     <div className="why-grid">
@@ -157,7 +156,7 @@ export default function Home() {
 
             <h1>25+</h1>
 
-            <span>Years Experience</span>
+            <span>Anni di esperienza</span>
 
         </div>
 
@@ -165,7 +164,7 @@ export default function Home() {
 
             <h1>500+</h1>
 
-            <span>Projects Completed</span>
+            <span>Progetti completati</span>
 
         </div>
 
@@ -173,7 +172,7 @@ export default function Home() {
 
             <h1>100%</h1>
 
-            <span>Client Satisfaction</span>
+            <span>Soddisfazione del cliente</span>
 
         </div>
 
@@ -181,7 +180,7 @@ export default function Home() {
 
             <h1>24/7</h1>
 
-            <span>Technical Support</span>
+            <span>Assistenza tecnica</span>
 
         </div>
 
@@ -191,7 +190,7 @@ export default function Home() {
 
       {/* ================= Contact Form Section ================= */}
 
-</div>
+
 
         <ContactForm />
 

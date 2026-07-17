@@ -13,59 +13,94 @@ import {
 import "./Dotazioni.css";
 
 const hardware = [
-  "Two DELL Precision 5820 Workstations - Intel Xeon W-2223, 64GB RAM, Windows 11, Nvidia Quadro K5000.",
-  "Professional BenQ PD2500Q 25” QHD CAD/CAM Monitors.",
-  "Dell Latitude E6520 Laptop.",
-  "ASUS F556U Laptop.",
-  "LAN Network connecting all workstations.",
-  "Epson Aculaser C1100 Color Laser Printer.",
-  "HP OfficeJet Pro 8620 Multifunction Printer.",
-  "Canon i-SENSYS MF6180dw Laser Printer.",
-  "HP DesignJet 500 A0 Plotter.",
-  "A0 Guillotine Paper Cutter.",
-  "A4 Scanner.",
-  "NAS My Cloud EX2 Ultra with RAID Backup and multiple 4TB backup drives."
+  {
+    icon: <FaDesktop />,
+    text: "Due workstation DELL Precision 5820 - Intel Xeon W-2223, 64 GB RAM, Windows 11, Nvidia Quadro K5000."
+  },
+  {
+    icon: <FaDesktop />,
+    text: "Monitor professionali BenQ PD2500Q da 25” QHD per progettazione CAD/CAM."
+  },
+  {
+    icon: <FaLaptop />,
+    text: "Notebook Dell Latitude E6520."
+  },
+  {
+    icon: <FaLaptop />,
+    text: "Notebook ASUS F556U."
+  },
+  {
+    icon: <FaNetworkWired />,
+    text: "Rete LAN dedicata per il collegamento di tutte le postazioni di lavoro."
+  },
+  {
+    icon: <FaPrint />,
+    text: "Stampante laser a colori Epson Aculaser C1100."
+  },
+  {
+    icon: <FaPrint />,
+    text: "Stampante multifunzione HP OfficeJet Pro 8620."
+  },
+  {
+    icon: <FaPrint />,
+    text: "Stampante laser Canon i-SENSYS MF6180dw."
+  },
+  {
+    icon: <FaPrint />,
+    text: "Plotter HP DesignJet 500 formato A0."
+  },
+  {
+    icon: <FaTools />,
+    text: "Taglierina professionale formato A0."
+  },
+  {
+    icon: <FaDesktop />,
+    text: "Scanner formato A4."
+  },
+  {
+    icon: <FaServer />,
+    text: "Sistema NAS My Cloud EX2 Ultra con backup RAID e unità di backup multiple da 4 TB."
+  }
 ];
 
 const software = [
-  "Microsoft Office 365",
-  "AutoCAD 2024",
-  "Revit 2024",
-  "Blumatica Energy",
-  "Impiantus Fumo",
-  "Solarius",
-  "Dialux Evo",
-  "ZEUS Plus",
-  "General Cavi CP 2022",
-  "SW-Air"
+  { icon: <FaMicrochip />, text: "Microsoft Office 365" },
+  { icon: <FaDesktop />, text: "AutoCAD 2024" },
+  { icon: <FaDesktop />, text: "Revit 2024" },
+  { icon: <FaCogs />, text: "Blumatica Energy" },
+  { icon: <FaCogs />, text: "Impiantus Fumo" },
+  { icon: <FaCogs />, text: "Solarius" },
+  { icon: <FaDesktop />, text: "Dialux Evo" },
+  { icon: <FaCogs />, text: "ZEUS Plus" },
+  { icon: <FaMicrochip />, text: "General Cavi CP 2022" },
+  { icon: <FaDesktop />, text: "SW-Air" }
 ];
 
 const instruments = [
-  "KYORITSU KEW 6010 Multifunction Tester",
-  "KYORITSU ELD 7040 Earth Tester",
-  "SACOP UNI MP7 Water Flow Meter",
-  "Solarzig Photovoltaic Tester",
-  "PCE-172 Lux Meter",
-  "DR3000 PK Reinforcement Detector",
-  "DIEMME N1 Concrete Rebound Hammer"
+  { icon: <FaTools />, text: "Tester multifunzione KYORITSU KEW 6010" },
+  { icon: <FaTools />, text: "Misuratore di terra KYORITSU ELD 7040" },
+  { icon: <FaTools />, text: "Misuratore di portata SACOP UNI MP7" },
+  { icon: <FaMicrochip />, text: "Tester per impianti fotovoltaici Solarzig" },
+  { icon: <FaTools />, text: "Luxmetro PCE-172" },
+  { icon: <FaTools />, text: "Rilevatore di armature DR3000 PK" },
+  { icon: <FaTools />, text: "Sclerometro DIEMME N1" }
 ];
 
 export default function Dotazioni() {
   return (
     <section className="equipment-page">
 
-      <div className="container">
 
       <div className="page-title">
 
-        <span>Resources & Equipment</span>
+        <span>Risorse & Dotazioni</span>
 
         <h1>DOTAZIONI</h1>
 
         <p>
-          Nava Engineering is equipped with advanced hardware,
-          professional engineering software and certified measuring
-          instruments to ensure high-quality engineering services.
+          Nava Engineering è dotata di hardware avanzato,
+          software professionale per l'ingegneria e strumenti di misura
+          certificati per garantire servizi di ingegneria di alta qualità.
         </p>
 
       </div>
@@ -75,23 +110,24 @@ export default function Dotazioni() {
       <section className="equipment-section">
 
         <h2>
-          <FaDesktop /> Hardware & Office Equipment
+          <FaDesktop /> Hardware & Dotazioni d'Ufficio
         </h2>
 
         <div className="equipment-grid">
 
-          {hardware.map((item, index) => (
+{hardware.map((item, index) => (
 
-            <div className="equipment-card" key={index}>
+<div className="equipment-card" key={index}>
 
-              <FaLaptop className="card-icon" />
+    <div className="card-icon">
+        {item.icon}
+    </div>
 
-              <p>{item}</p>
+    <p>{item.text}</p>
 
-            </div>
+</div>
 
-          ))}
-
+))}
         </div>
 
       </section>
@@ -101,23 +137,17 @@ export default function Dotazioni() {
       <section className="equipment-section">
 
         <h2>
-          <FaCogs /> Software Used
+          <FaCogs /> Software Utilizzato
         </h2>
 
         <div className="equipment-grid">
 
-          {software.map((item, index) => (
-
-            <div className="equipment-card" key={index}>
-
-              <FaMicrochip className="card-icon" />
-
-              <p>{item}</p>
-
-            </div>
-
-          ))}
-
+          {software.map((item,index)=>(
+<div className="equipment-card" key={index}>
+    <div className="card-icon">{item.icon}</div>
+    <p>{item.text}</p>
+</div>
+))}
         </div>
 
       </section>
@@ -127,7 +157,7 @@ export default function Dotazioni() {
       <section className="equipment-section">
 
         <h2>
-          <FaTools /> Testing & Measuring Instruments
+          <FaTools /> Strumenti di Misura e Collaudo
         </h2>
 
         <div className="equipment-grid">
@@ -136,9 +166,11 @@ export default function Dotazioni() {
 
             <div className="equipment-card" key={index}>
 
-              <FaTools className="card-icon" />
+              <div className="card-icon">
+                {item.icon}
+              </div>
 
-              <p>{item}</p>
+              <p>{item.text}</p>
 
             </div>
 
@@ -148,7 +180,6 @@ export default function Dotazioni() {
 
       </section>
 
-      </div>
 
     </section>
 

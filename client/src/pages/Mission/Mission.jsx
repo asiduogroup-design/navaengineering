@@ -10,25 +10,26 @@ import "./Mission.css";
 export default function Mission() {
   return (
     <section className="mission-page">
-      <div className="container">
 
         <div className="mission-hero">
           <div className="overlay">
-            <h1>Our Mission</h1>
-            <p>Sharing • Knowledge • Innovation • Environmental Responsibility</p>
-          </div>
+          <h1>La Nostra Missione</h1>
+
+<p>Condivisione • Conoscenza • Innovazione • Responsabilità Ambientale</p>
+</div>
         </div>
 
         {/* Intro */}
         <div className="mission-intro">
-          <span>WHO WE ARE</span>
-          <h2>Building Sustainable Engineering Solutions</h2>
-          <p>
-            At Nava Engineering, every project begins with understanding the
-            client's vision. Through collaboration, innovation and technical
-            excellence, we deliver engineering solutions that are efficient,
-            sustainable and future-ready.
-          </p>
+          <span>CHI SIAMO</span>
+
+<h2>Progettiamo Soluzioni di Ingegneria Sostenibili</h2>
+
+<p>
+In Nava Engineering ogni progetto nasce dall'ascolto delle esigenze del cliente.
+Grazie alla collaborazione, all'innovazione e all'eccellenza tecnica,
+realizziamo soluzioni ingegneristiche efficienti, sostenibili e orientate al futuro.
+</p>
         </div>
 
         {/* Cards */}
@@ -40,12 +41,13 @@ export default function Mission() {
             />
             <div className="card-content">
               <FaHandshake className="card-icon" />
-              <h3>Sharing</h3>
-              <p>
-                Every engineering solution is developed together with the
-                client. Collaboration ensures better design decisions,
-                optimized costs and successful project delivery.
-              </p>
+             <h3>Condivisione</h3>
+
+<p>
+Ogni soluzione ingegneristica viene sviluppata insieme al cliente.
+La collaborazione consente di prendere decisioni progettuali migliori,
+ottimizzare i costi e garantire il successo del progetto.
+</p>
             </div>
           </div>
 
@@ -56,11 +58,11 @@ export default function Mission() {
             />
             <div className="card-content">
               <FaLightbulb className="card-icon" />
-              <h3>Knowledge & Innovation</h3>
+              <h3>Conoscenza & Innovazione</h3>
               <p>
-                Years of professional experience combined with modern software
-                and advanced engineering tools allow us to create innovative
-                and reliable solutions.
+                Anni di esperienza professionale combinati con software moderni
+                e strumenti di ingegneria avanzati ci permettono di creare soluzioni
+                innovative e affidabili.
               </p>
             </div>
           </div>
@@ -72,11 +74,11 @@ export default function Mission() {
             />
             <div className="card-content">
               <FaLeaf className="card-icon" />
-              <h3>Environmental Ethics</h3>
+              <h3>Etica Ambientale</h3>
               <p>
-                Sustainability and energy efficiency guide every engineering
-                decision, helping reduce environmental impact while improving
-                long-term building performance.
+                La sostenibilità e l'efficienza energetica guidano ogni decisione
+                ingegneristica, contribuendo a ridurre l'impatto ambientale e
+                migliorare le prestazioni degli edifici nel lungo periodo.
               </p>
             </div>
           </div>
@@ -85,34 +87,33 @@ export default function Mission() {
         {/* Main Content */}
         <section className="mission-content">
           <div className="text">
-            <h2>Engineering with Purpose</h2>
+            <h2>Ingegneria con uno Scopo</h2>
             <p>
-              At the heart of our mission is the continuous sharing of
-              engineering choices with our clients. Every solution is designed
-              not only to meet technical requirements but also to optimize
-              investment, maintenance and operational efficiency.
+              Al centro della nostra missione c'è la condivisione continua delle
+              scelte ingegneristiche con i nostri clienti. Ogni soluzione è progettata
+              non solo per soddisfare i requisiti tecnici, ma anche per ottimizzare
+              investimenti, manutenzione ed efficienza operativa.
             </p>
             <p>
-              Nava Engineering combines extensive know-how in electrical,
-              mechanical and fire protection engineering with innovative
-              technologies to create integrated engineering solutions for
-              complex buildings.
+              Nava Engineering combina un ampio know-how nell'ingegneria elettrica,
+              meccanica e antincendio con tecnologie innovative per creare soluzioni
+              ingegneristiche integrate per edifici complessi.
             </p>
             <ul>
               <li>
-                <FaCheckCircle /> Client-focused engineering approach
+                <FaCheckCircle /> Approccio ingegneristico orientato al cliente
               </li>
               <li>
-                <FaCheckCircle /> Sustainable design principles
+                <FaCheckCircle /> Principi di progettazione sostenibile
               </li>
               <li>
-                <FaCheckCircle /> Advanced engineering software
+                <FaCheckCircle /> Software di ingegneria avanzato
               </li>
               <li>
-                <FaCheckCircle /> Fire safety & energy optimization
+                <FaCheckCircle /> Sicurezza antincendio & ottimizzazione energetica
               </li>
               <li>
-                <FaCheckCircle /> Innovative integrated solutions
+                <FaCheckCircle /> Soluzioni integrate innovative
               </li>
             </ul>
           </div>
@@ -129,23 +130,22 @@ export default function Mission() {
         <section className="stats">
           <div>
             <h2>25+</h2>
-            <span>Years Experience</span>
+            <span>Anni di Esperienza</span>
           </div>
           <div>
             <h2>500+</h2>
-            <span>Projects Completed</span>
+            <span>Progetti Completati</span>
           </div>
           <div>
             <h2>100%</h2>
-            <span>Client Commitment</span>
+            <span>Impegno verso i Clienti</span>
           </div>
           <div>
             <h2>24/7</h2>
-            <span>Professional Support</span>
+            <span>Supporto Professionale</span>
           </div>
         </section>
 
-      </div>
     </section>
   );
 }

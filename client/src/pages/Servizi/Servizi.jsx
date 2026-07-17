@@ -3,102 +3,101 @@ import "./Servizi.css";
 
 const services = [
   {
-    title: "Energy Engineering",
+    title: "Ingegneria Energetica",
     image:
       "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1200",
     description:
-      "Energy audits, energy diagnosis, energy performance certification and sustainable engineering solutions for residential, commercial and industrial buildings.",
+      "Diagnosi energetiche, certificazioni energetiche, audit energetici e soluzioni progettuali sostenibili per edifici residenziali, commerciali e industriali.",
     points: [
-      "Energy Diagnosis",
-      "Energy Certification",
-      "Energy Audits",
-      "Building Performance Analysis",
+      "Diagnosi Energetica",
+      "Certificazione Energetica",
+      "Audit Energetici",
+      "Analisi delle Prestazioni Energetiche",
     ],
   },
   {
-    title: "HVAC & Mechanical Engineering",
+    title: "Impianti Termici e Meccanici",
     image:
       "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=1200",
     description:
-      "Design of heating, cooling, ventilation, heat pump and domestic hot water systems with maximum efficiency.",
+      "Progettazione di impianti di riscaldamento, raffrescamento, ventilazione, pompe di calore e produzione di acqua calda sanitaria ad alta efficienza.",
     points: [
-      "Heat Pumps",
-      "Air Conditioning",
-      "Ventilation Systems",
-      "Heating Systems",
+      "Pompe di Calore",
+      "Impianti di Climatizzazione",
+      "Ventilazione Meccanica",
+      "Impianti di Riscaldamento",
     ],
   },
   {
-    title: "Fire Protection Engineering",
+    title: "Ingegneria Antincendio",
     image:
       "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200",
     description:
-      "Complete fire prevention engineering, sprinkler systems, fire safety studies and SCIA documentation.",
+      "Progettazione antincendio completa, sistemi sprinkler, reti idriche antincendio, studi di prevenzione incendi e pratiche SCIA.",
     points: [
-      "Fire Prevention",
-      "Sprinkler Systems",
-      "Smoke Extraction",
-      "SCIA Fire Safety",
+      "Prevenzione Incendi",
+      "Impianti Sprinkler",
+      "Evacuazione Fumi",
+      "Pratiche SCIA Antincendio",
     ],
   },
   {
-    title: "Electrical Engineering",
+    title: "Impianti Elettrici",
     image:
       "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
     description:
-      "Electrical power distribution, lighting systems, special systems and intelligent building solutions.",
+      "Progettazione di impianti elettrici civili e industriali, illuminazione, sistemi speciali e soluzioni per edifici intelligenti.",
     points: [
-      "Electrical Design",
-      "Lighting Design",
-      "Special Systems",
-      "Power Distribution",
+      "Progettazione Elettrica",
+      "Progettazione Illuminotecnica",
+      "Impianti Speciali",
+      "Distribuzione dell'Energia",
     ],
   },
   {
-    title: "Renewable Energy",
+    title: "Energie Rinnovabili",
     image:
       "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200",
     description:
-      "Photovoltaic systems, battery storage, renewable energy consultancy and sustainable engineering.",
+      "Progettazione di impianti fotovoltaici, sistemi di accumulo, consulenza sulle energie rinnovabili ed efficientamento energetico.",
     points: [
-      "Solar Panels",
-      "Battery Storage",
-      "Renewable Energy",
-      "Green Buildings",
+      "Impianti Fotovoltaici",
+      "Sistemi di Accumulo",
+      "Energie Rinnovabili",
+      "Edifici Sostenibili",
     ],
   },
   {
-    title: "Testing & Commissioning",
+    title: "Collaudi e Verifiche Tecniche",
     image:
       "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=1200",
     description:
-      "Technical inspections, acceptance tests, commissioning and engineering verification services.",
+      "Collaudi tecnico-amministrativi, verifiche impiantistiche, prove di accettazione e servizi di controllo qualità.",
     points: [
-      "Technical Testing",
-      "Commissioning",
-      "Inspection",
-      "Quality Assurance",
+      "Collaudi Tecnici",
+      "Verifiche Impiantistiche",
+      "Ispezioni Tecniche",
+      "Controllo Qualità",
     ],
   },
 ];
-
 export default function Servizi() {
   return (
     <section className="services-page">
 
-      <div className="container">
 
       <div className="services-header">
 
-        <span>ENGINEERING EXPERTISE</span>
+        <span>COMPETENZE INGEGNERISTICHE</span>
 
-        <h1>Engineering Services</h1>
+<h1>Servizi di Ingegneria</h1>
 
-        <p>
-          Nava Engineering delivers innovative engineering solutions
-          across electrical, mechanical, energy and fire protection
-          disciplines, ensuring quality, safety and sustainability.
-        </p>
+<p>
+Nava Engineering offre servizi professionali di progettazione
+nei settori dell'ingegneria elettrica, meccanica, energetica,
+impiantistica e della prevenzione incendi, garantendo qualità,
+sicurezza, innovazione e sostenibilità in ogni progetto.
+</p>
 
       </div>
 
@@ -134,7 +133,6 @@ export default function Servizi() {
 
       </div>
 
-      </div>
 
     </section>
   );

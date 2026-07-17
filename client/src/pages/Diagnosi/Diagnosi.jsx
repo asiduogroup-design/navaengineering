@@ -4,7 +4,6 @@ import "./Diagnosi.css";
 export default function Diagnosi() {
   return (
     <main className="diagnosi-page">
-      <div className="container">
         <h1>Diagnosi energetica e progettazione reti antincendio a Milano</h1>
 
         <p>
@@ -53,7 +52,6 @@ export default function Diagnosi() {
           <li>Consulenze tecniche per il giudice presso il Tribunale di Milano per perizie su impianti elettrici e affini.</li>
         </ol>
 
-      </div>
     </main>
   );
 }

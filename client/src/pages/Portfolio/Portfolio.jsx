@@ -3,94 +3,94 @@ import "./Portfolio.css";
 
 const projects = [
   {
-    title: "New Provincial Headquarters",
-    location: "Monza, Italy",
+    title: "Nuova Sede Provinciale",
+    location: "Monza, Italia",
     image:
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
-    category: "Institutional Building",
+    category: "Edificio Istituzionale",
     description:
-      "Complete design of electrical, mechanical, plumbing, HVAC and fire protection systems for the new Provincial Headquarters of Monza & Brianza.",
+      "Progettazione completa degli impianti elettrici, meccanici, idraulici, HVAC e antincendio per la nuova Sede della Provincia di Monza e Brianza.",
     services: [
-      "Electrical Design",
-      "Mechanical Systems",
+      "Progettazione Elettrica",
+      "Impianti Meccanici",
       "HVAC",
-      "Fire Protection"
+      "Prevenzione Incendi"
     ]
   },
 
   {
-    title: "San Carlo Hospital",
-    location: "Milano, Italy",
+    title: "Ospedale San Carlo",
+    location: "Milano, Italia",
     image:
       "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200",
-    category: "Healthcare",
+    category: "Settore Sanitario",
     description:
-      "Engineering design and supervision for hospital departments including operating rooms, endoscopy units and electrical upgrades.",
+      "Progettazione impiantistica e Direzione Lavori per reparti ospedalieri, sale operatorie, unità di endoscopia e adeguamento degli impianti elettrici.",
     services: [
-      "Medical Electrical Systems",
+      "Impianti Elettrici Ospedalieri",
       "HVAC",
-      "Safety",
-      "Project Management"
+      "Sicurezza",
+      "Direzione Lavori"
     ]
   },
 
   {
-    title: "Industrial Electrical Installation",
-    location: "Bresso, Italy",
+    title: "Impianto Elettrico Industriale",
+    location: "Bresso, Italia",
     image:
       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200",
-    category: "Industrial",
+    category: "Settore Industriale",
     description:
-      "Design and execution of industrial electrical systems, power distribution and automation infrastructure.",
+      "Progettazione e realizzazione di impianti elettrici industriali, distribuzione dell'energia e sistemi di automazione.",
     services: [
-      "Power Distribution",
-      "Automation",
-      "Industrial Lighting"
+      "Distribuzione Elettrica",
+      "Automazione Industriale",
+      "Illuminazione Industriale"
     ]
   },
 
   {
-    title: "Educational Building",
-    location: "University of Milan",
+    title: "Edificio Universitario",
+    location: "Università di Milano",
     image:
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200",
-    category: "Education",
+    category: "Istruzione",
     description:
-      "Electrical and mechanical engineering design for university laboratories and educational facilities.",
+      "Progettazione degli impianti elettrici e meccanici per laboratori universitari e strutture dedicate alla formazione.",
     services: [
-      "Laboratory Design",
-      "Electrical",
-      "Mechanical"
+      "Laboratori",
+      "Impianti Elettrici",
+      "Impianti Meccanici"
     ]
   },
 
   {
-    title: "Residential Energy Upgrade",
+    title: "Riqualificazione Energetica Residenziale",
     location: "Milano",
     image:
       "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1200",
-    category: "Residential",
+    category: "Residenziale",
     description:
-      "Energy efficiency improvement, HVAC redesign and electrical modernization for residential complexes.",
+      "Efficientamento energetico, riqualificazione degli impianti HVAC e ammodernamento degli impianti elettrici per complessi residenziali.",
     services: [
-      "Energy Efficiency",
-      "Heat Pumps",
-      "Electrical Upgrade"
+      "Efficienza Energetica",
+      "Pompe di Calore",
+      "Adeguamento Elettrico"
     ]
   },
 
   {
-    title: "Fire Protection Engineering",
-    location: "Public Buildings",
+    title: "Progettazione Antincendio",
+    location: "Edifici Pubblici",
     image:
       "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200",
-    category: "Fire Safety",
+    category: "Prevenzione Incendi",
     description:
-      "Fire prevention studies, sprinkler systems, smoke extraction and fire risk assessments for public facilities.",
+      "Studi di prevenzione incendi, progettazione di impianti sprinkler, sistemi di evacuazione fumi e valutazione del rischio incendio.",
     services: [
-      "Fire Prevention",
-      "Sprinklers",
-      "Smoke Extraction"
+      "Prevenzione Incendi",
+      "Impianti Sprinkler",
+      "Evacuazione Fumi"
     ]
   }
 ];
@@ -99,18 +99,18 @@ export default function Portfolio() {
   return (
     <section className="portfolio">
 
-      <div className="container">
 
       <div className="portfolio-heading">
 
-        <span>OUR PROJECTS</span>
+       <span>I NOSTRI PROGETTI</span>
 
-        <h1>Engineering Portfolio</h1>
+<h1>Portfolio</h1>
 
-        <p>
-          Discover some of the engineering projects successfully completed by
-          Nava Engineering across Italy.
-        </p>
+<p>
+Scopri alcuni dei principali progetti realizzati da Nava Engineering
+nei settori dell'ingegneria elettrica, meccanica, energetica,
+impiantistica e della prevenzione incendi in tutta Italia.
+</p>
 
       </div>
 
@@ -156,7 +156,6 @@ export default function Portfolio() {
 
       </div>
 
-      </div>
 
     </section>
   );

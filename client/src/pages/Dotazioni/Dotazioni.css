@@ -209,3 +209,26 @@ font-size:20px;
 }
 
 }
+.card-icon{
+    width:52px;
+    height:52px;
+    min-width:52px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+    background:#eef5ff;
+
+    color:#1d63c8;
+    font-size:24px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.equipment-card{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+}

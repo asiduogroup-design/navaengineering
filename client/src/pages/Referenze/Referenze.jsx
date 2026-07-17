@@ -15,105 +15,103 @@ import "./Referenze.css";
 const qualifications = [
   {
     icon: <FaCertificate />,
-    title: "Regional Testing Register",
+    title: "Iscrizione all'Albo Regionale dei Collaudatori",
     year: "2001",
     description:
-      "Registered in the Lombardy Regional Register of Technical Testers for technological and electrical systems.",
+      "Iscritto all'Albo Regionale della Lombardia dei Collaudatori per impianti tecnologici ed elettrici.",
   },
   {
     icon: <FaUserShield />,
-    title: "Safety Coordinator",
+    title: "Coordinatore della Sicurezza",
     year: "1998",
     description:
-      "Qualified Safety Coordinator for Design & Construction in compliance with Legislative Decree 81/08.",
+      "Abilitato come Coordinatore della Sicurezza in fase di Progettazione ed Esecuzione ai sensi del D.Lgs. 81/08.",
   },
   {
     icon: <FaFire />,
-    title: "Fire Prevention Specialist",
+    title: "Professionista Antincendio",
     year: "2001",
     description:
-      "Authorized professional for Fire Prevention according to Italian Fire Safety Regulations.",
+      "Professionista autorizzato alla progettazione e certificazione della prevenzione incendi secondo la normativa italiana.",
   },
   {
     icon: <FaGavel />,
-    title: "Court Technical Consultant",
+    title: "Consulente Tecnico d'Ufficio (CTU)",
     year: "2002",
     description:
-      "Registered Technical Consultant for the Court of Milan in Electrical Engineering.",
+      "Iscritto all'Albo dei Consulenti Tecnici del Tribunale di Milano per il settore Elettrotecnico.",
   },
   {
     icon: <FaAward />,
-    title: "Energy Certifier (CENED)",
+    title: "Certificatore Energetico CENED",
     year: "2016",
     description:
-      "Registered Energy Performance Certification professional in Lombardy.",
+      "Iscritto all'Albo Regionale dei Certificatori Energetici della Regione Lombardia.",
   },
   {
     icon: <FaBolt />,
-    title: "Certified Energy Manager (EGE)",
+    title: "Esperto in Gestione dell'Energia (EGE)",
     year: "2023",
     description:
-      "Accredia Certified Expert in Energy Management (Civil Sector).",
+      "Esperto certificato Accredia nella Gestione dell'Energia - Settore Civile.",
   }
 ];
 
 const memberships = [
-  "Member of CEI Technical Committee 64.",
-  "Member of CEI Committee 205 - Building Bus Systems.",
-  "Member of the Milan Engineers Association.",
-  "Member of the Milan Chamber of Commerce Technical Commission.",
-  "Technical Consultant for Public Authorities.",
-  "Electrical Engineering Commission Member.",
+  "Membro del Comitato Tecnico CEI CT 64.",
+  "Membro del Comitato CEI 205 - Sistemi Bus per Edifici.",
+  "Membro del Collegio degli Ingegneri e Architetti di Milano.",
+  "Membro della Commissione Tecnica della Camera di Commercio di Milano.",
+  "Consulente Tecnico per Enti Pubblici.",
+  "Membro della Commissione Impianti dell'Ordine degli Ingegneri di Milano.",
 ];
-
 const timeline = [
   {
     year: "1997",
-    title: "Registered Engineer"
+    title: "Iscrizione all'Albo degli Ingegneri"
   },
   {
     year: "1998",
-    title: "Safety Coordinator Qualification"
+    title: "Abilitazione come Coordinatore della Sicurezza"
   },
   {
     year: "2000",
-    title: "First Place - Engineering Competition"
+    title: "Primo classificato al Concorso Ordinario"
   },
   {
     year: "2001",
-    title: "Fire Prevention Professional"
+    title: "Professionista Antincendio"
   },
   {
     year: "2002",
-    title: "Court Technical Consultant"
+    title: "Consulente Tecnico del Tribunale (CTU)"
   },
   {
     year: "2016",
-    title: "Energy Certification"
+    title: "Certificatore Energetico CENED"
   },
   {
     year: "2023",
-    title: "Certified EGE"
+    title: "Esperto in Gestione dell'Energia (EGE)"
   }
 ];
-
 export default function Referenze() {
   return (
     <section className="referenze">
 
-      <div className="container">
+      
 
       <div className="hero">
 
         <div className="hero-content">
 
-          <span>Professional Credentials</span>
+          <span>Qualifiche professionali</span>
 
-          <h1>Referenze</h1>
+          <h1>Referenze </h1>
 
           <p>
-            More than 25 years of professional registrations,
-            engineering certifications and technical memberships.
+            Oltre 25 anni di abilitazioni professionali,
+            certificazioni ingegneristiche e affiliazioni a enti tecnici.
           </p>
 
         </div>
@@ -124,7 +122,7 @@ export default function Referenze() {
 
       <section className="section">
 
-        <h2>Professional Certifications</h2>
+        <h2>Certificazioni professionali</h2>
 
         <div className="cards">
 
@@ -169,7 +167,7 @@ export default function Referenze() {
 
           <div className="membership-content">
 
-            <h2>Professional Memberships</h2>
+            <h2>Affiliazioni professionali</h2>
 
             <ul>
 
@@ -193,7 +191,7 @@ export default function Referenze() {
 
   <section className="section">
 
-    <h2>Professional Journey</h2>
+    <h2>Percorso professionale</h2>
 
     <div className="journey">
 
@@ -220,7 +218,6 @@ export default function Referenze() {
 
 </section>
 
-      </div>
 
     </section>
   );

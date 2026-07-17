@@ -4,7 +4,6 @@ import "./Contatti.css";
 export default function Contatti() {
   return (
     <section className="contatti-page">
-      <div className="container">
 
         <div className="contatti-grid">
           <div className="contact-details">
@@ -38,7 +37,6 @@ export default function Contatti() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }
