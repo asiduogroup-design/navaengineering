@@ -11,7 +11,8 @@ export default function Mission() {
   return (
     <section className="mission-page">
 
-      {/* Hero */}
+    <section className="mission-page">
+      <div className="container">
 
       <div className="mission-hero">
 
@@ -77,7 +78,8 @@ export default function Mission() {
 
           <img
             src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900"
-            alt=""
+      </section>
+      </div>
           />
 
           <div className="card-content">

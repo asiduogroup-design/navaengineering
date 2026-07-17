@@ -54,6 +54,8 @@ export default function Dotazioni() {
   return (
     <section className="equipment-page">
 
+      <div className="container">
+
       <div className="page-title">
 
         <span>Resources & Equipment</span>
@@ -146,6 +148,8 @@ export default function Dotazioni() {
 
       </section>
 
-    </section>
+      </section>
+
+      </div>
   );
 }

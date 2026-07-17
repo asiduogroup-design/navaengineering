@@ -79,6 +79,7 @@ const timeline = [
 export default function Curriculum() {
   return (
     <section className="curriculum">
+      <div className="container">
       <div className="curriculum-header">
         <span>Professional Experience</span>
         <h1>Curriculum</h1>
@@ -103,6 +104,7 @@ export default function Curriculum() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

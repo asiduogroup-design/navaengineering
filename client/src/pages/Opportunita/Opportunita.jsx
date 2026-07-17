@@ -34,6 +34,8 @@ export default function Opportunita() {
 
     <section className="career-page">
 
+      <div className="container">
+
       {/* Hero */}
 
       <div className="career-hero">
@@ -185,6 +187,8 @@ export default function Opportunita() {
         <ContactForm />
 
       </section>
+
+      </div>
 
     </section>
 

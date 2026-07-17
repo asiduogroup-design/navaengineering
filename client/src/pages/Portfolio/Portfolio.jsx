@@ -99,6 +99,8 @@ export default function Portfolio() {
   return (
     <section className="portfolio">
 
+      <div className="container">
+
       <div className="portfolio-heading">
 
         <span>OUR PROJECTS</span>

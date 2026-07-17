@@ -101,6 +101,8 @@ export default function Referenze() {
   return (
     <section className="referenze">
 
+      <div className="container">
+
       <div className="hero">
 
         <div className="hero-content">
@@ -189,7 +191,7 @@ export default function Referenze() {
 
       {/* Timeline */}
 
-   <section className="section">
+  <section className="section">
 
     <h2>Professional Journey</h2>
 
@@ -217,6 +219,8 @@ export default function Referenze() {
     </div>
 
 </section>
+
+      </div>
 
     </section>
   );
