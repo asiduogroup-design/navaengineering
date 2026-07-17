@@ -45,9 +45,33 @@ export default function Navbar() {
     { label: "Contatti", to: "/contatti" },
   ];
 
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (!isOpen) return;
+      if (navbarRef.current && !navbarRef.current.contains(e.target)) {
+        setIsOpen(false);
+      }
+    }
+
+    function handleKeyDown(e) {
+      if (e.key === "Escape" && isOpen) setIsOpen(false);
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen]);
+
   return (
-    <header className={hidden && !isOpen ? 'hidden' : ''}>
-      <div className="navbar-container">
+    <header className={hidden && !isOpen ? "hidden" : ""}>
+      <div className="navbar-container" ref={navbarRef}>
 
         {/* Logo */}
           <Link to="/" className="logo">
@@ -81,6 +105,9 @@ export default function Navbar() {
         >
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
+
+        {/* mobile overlay to close menu when clicking outside */}
+        {isOpen && <div className="nav-overlay" onClick={() => setIsOpen(false)} />}
 
       </div>
     </header>
