@@ -2,29 +2,29 @@ import React from "react";
 import "./Home.css";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import { Link } from "react-router-dom";
-import heroVideo from "../../assets/nava engineering.mp4";
+import Video from "../../assets/nava engineering.mp4";
 import ChatWidget from "../../components/ChatWidget/ChatWidget";
 
 export default function Home() {
   return (
     <>
-      {/* ================= Hero Section ================= */}
+      {/* =================  Section ================= */}
 
-    <section className="hero">
+    <section className="home-hero">
 
     <video
-        className="hero-video"
+        className="home-hero-video"
         autoPlay
         muted
         loop
         playsInline
     >
-        <source src={heroVideo} type="video/mp4" />
+        <source src={Video} type="video/mp4" />
     </video>
 
-    <div className="hero-overlay"></div>
+    <div className="home-hero-overlay"></div>
 
-   <div className="hero-content">
+   <div className="home-hero-content">
 
     <div className="hero-title">
 
@@ -32,7 +32,7 @@ export default function Home() {
 
     </div>
 
-</div>
+</div> {/* .home-hero-content */}
 
   
 

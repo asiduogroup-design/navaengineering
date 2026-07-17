@@ -28,7 +28,7 @@ export default function App() {
     <>
       <Navbar />
       <IntroModal />
-
+<main>  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -47,7 +47,7 @@ export default function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/dotazioni" element={<Dotazioni />} />
       </Routes>
-
+</main>
       <Footer />
       <WhatsAppWidget />
     </>
