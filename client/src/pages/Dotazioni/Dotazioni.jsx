@@ -148,8 +148,9 @@ export default function Dotazioni() {
 
       </section>
 
-      </section>
-
       </div>
+
+    </section>
+
   );
 }
