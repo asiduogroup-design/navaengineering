@@ -92,7 +92,7 @@ Ultimo aggiornamento • 04/02/2025
 
 </div>
 
-<div className="privacy-container">
+<div className="privacy-container container">
 
 {sections.map((item,index)=>(
 

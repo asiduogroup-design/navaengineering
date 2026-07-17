@@ -51,6 +51,7 @@ export default function Home() {
 
     {/* ================= SETTORI ================= */}
 
+<div className="container">
 <section className="section-block">
 
     <div className="section-image">
@@ -190,8 +191,9 @@ export default function Home() {
 
       {/* ================= Contact Form Section ================= */}
 
+</div>
 
-    <ContactForm />
+        <ContactForm />
 
       <ChatWidget />
 

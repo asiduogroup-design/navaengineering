@@ -104,7 +104,7 @@ export default function Termini() {
 
       {/* Cards */}
 
-      <div className="terms-container">
+      <div className="terms-container container">
 
         {sections.map((item, index) => (
 

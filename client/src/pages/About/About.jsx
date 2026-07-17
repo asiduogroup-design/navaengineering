@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="about-page">
 
-      <div className="about-container">
+      <div className="about-container container">
 
         <span className="about-tag">
           CHI SIAMO

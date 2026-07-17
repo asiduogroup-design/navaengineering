@@ -49,7 +49,7 @@ export default function Analytics() {
   const items = Object.keys(data).map(k => ({ label: k, value: data[k].count || 0 }));
 
   return (
-    <div className="analytics-container">
+    <div className="analytics-container container">
       <h2>Analytics</h2>
       <div style={{maxWidth:600}}>
         <SmallBarChart items={items} />

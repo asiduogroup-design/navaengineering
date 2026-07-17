@@ -15,3 +15,75 @@ body {
 .app {
   padding: 2rem;
 }
+
+/* Responsive base utilities */
+:root {
+  --container-max-width: 1200px;
+  --gap: 1rem;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Flexible grid that adapts to viewport width */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--gap);
+  align-items: start;
+}
+
+.row {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+
+/* Make images and videos responsive */
+img, picture, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Hero video or background media should scale without overflowing */
+.hero, .hero * {
+  max-width: 100%;
+}
+
+/* Utility to stack columns on small screens */
+.stack-mobile {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+.stack-mobile > * {
+  flex: 1 1 100%;
+}
+
+/* Responsive typography */
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+  .app { padding: 1.25rem; }
+}
+
+@media (max-width: 600px) {
+  html { font-size: 14px; }
+  .app { padding: 0.75rem; }
+  :root { --gap: 0.75rem; }
+}
+
+/* Small helper to center content */
+.center { text-align: center; }
