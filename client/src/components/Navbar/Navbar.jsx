@@ -70,6 +70,7 @@ export default function Navbar() {
   }, [isOpen]);
 
   return (
+    <>
     <header className={hidden && !isOpen ? "hidden" : ""}>
       <div className="navbar-container" ref={navbarRef}>
 
@@ -106,10 +107,12 @@ export default function Navbar() {
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
 
-        {/* mobile overlay to close menu when clicking outside */}
-        {isOpen && <div className="nav-overlay" onClick={() => setIsOpen(false)} />}
-
+        
       </div>
     </header>
+    {/* mobile overlay to close menu when clicking outside */}
+        {isOpen && <div className="nav-overlay" onClick={() => setIsOpen(false)} />}
+
+    </>
   );
 }
